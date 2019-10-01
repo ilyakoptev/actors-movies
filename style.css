@@ -1,0 +1,62 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    /* display: block; */
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.boxColor {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 15px;
+    /* display: block; */
+}
+
+.blue {
+    background-color: rgb(86, 86, 197);
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-results {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.movieTitle {
+    color: orangered;
+    display: inline-block;
+}
+
+.nav-orange {
+    color: orangered;
+}
+
+.active {
+    text-decoration-line: underline;
+    font-size: 110%;
+}
